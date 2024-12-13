@@ -567,9 +567,9 @@
             var cbmnValue = snapshot.val();
             var textCBMN = document.getElementById('textcbmn');
 
-            if (cbmnValue === 0) {
+            if (cbmnValue === 1) {
                 textCBMN.textContent = "Cao";
-            } else if (cbmnValue === 1) {
+            } else if (cbmnValue === 0) {
                 textCBMN.textContent = "Thấp";
             }
         });
